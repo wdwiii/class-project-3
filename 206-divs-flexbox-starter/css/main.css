@@ -104,8 +104,9 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
+  background: rgb(38, 38, 38);
 }
 
 .wrapper {
@@ -121,24 +122,19 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  height: 300px;
+  font-size: 1em;
+  height: auto;
   display: flex;
+  text-align: justify;
   align-items: center;
   justify-content: center;
+  padding: 15px;
   width: 30%;
 }
 
-.div-1 {
-    background-color: rgb(172, 108, 200)
-}
-
 .div-2 {
-    background-color: rgb(250, 152, 198);
-}
-
-.div-3 {
-    background-color: rgb(134, 196, 159);
+    border-left: 1px solid white;
+    border-right: solid 1px white;
 }
 
 
